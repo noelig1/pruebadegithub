@@ -1,7 +1,144 @@
-*{margin: 0;
-padding: 0;
-}
+
 .h1 {
     color: brown;
     font-family: 'Courier New', Courier, monospace;
 }
+div {
+    width: 400px; height: 150px;
+    background-color: #ad6be3; 
+    border: 4px dotted;
+    padding: 40px;
+    margin: 50px; 
+    display: inline-table;
+    text-align: center;
+}
+div p {
+display: table-cell;
+vertical-align:middle;
+font-family: impact; 
+font-size: 32px;
+text-transform: 
+uppercase;
+color:#330757;
+}
+/* formato, letra y color de la pagina horarios*/
+.h2 {
+  color: blue;
+  font-size: 200%;
+  font-weight:bold
+}
+.h3 {
+    color: pink;
+    font-size: 200%;
+    font-weight:bold
+    
+}
+.h4 {
+    color: yellowgreen;
+    font-size: 200%;
+    font-weight:bold
+    
+}
+.h5 {
+    color: red;
+    font-size: 200%;
+    font-weight:bold
+    
+}
+.h6 {
+    color: green;
+    font-size: 200%;
+    font-weight: bold;
+}
+.h7 {
+    color: orange;
+    font-size: 200%;
+    font-weight:bold
+    
+}
+.h8 {
+    color: aqua;
+    font-size: 200%;
+    font-weight:bold
+    
+}
+.h9 {
+    color: purple;
+    font-size: 200%;
+    font-weight:bold 
+}
+.h10 {
+    color: blue;
+    font-style: italic;
+}
+.h11 {
+    color: pink;
+    font-style: italic;
+}
+.h12 {
+    color: yellowgreen;
+    font-style: italic;
+}
+.h13 {
+    color: red;
+    font-style: italic;
+}
+.h14 {
+    color: green;
+    font-style: italic;
+}
+.h15 {
+    color: orange;
+    font-style: italic;
+}
+.h16 {
+    color: aqua;
+    font-style: italic;
+}
+.h17 {
+    color: purple;
+    font-style: italic;
+}
+.h18 {
+    color: blue;
+    font-style: italic;
+}
+.h19 {
+    color: pink;
+    font-style: italic;
+}
+.h20 {
+    color: yellowgreen;
+    font-style: italic;
+}
+.h21 {
+    color: red;
+    font-style: italic;
+}
+.h22 {
+    color: green;
+    font-style: italic;
+}
+.h23 {
+    color: orange;
+    font-style: italic;
+}
+.h24 {
+    color: aqua;
+    font-style: italic;
+}
+.h25 {
+    color: purple;
+    font-style: italic;
+}
+    /* TERMINA: formato, letra y color de la pagina horarios*/
+    
+
+.header {
+background-color: lightsalmon;
+width: 1500px; height: 100%;
+}   
+.footer {
+    background-color: lightsalmon;
+    width: 1500px; height: 100%;   
+} 
