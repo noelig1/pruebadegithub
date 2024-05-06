@@ -136,9 +136,19 @@ color:#330757;
 
 .header {
 background-color: lightsalmon;
-width: 1500px; height: 100%;
+width: 100%; height: 100%;
 }   
 .footer {
     background-color: lightsalmon;
-    width: 1500px; height: 100%;   
+    width: 100%; height: 100%;   
 } 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
