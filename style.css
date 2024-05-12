@@ -1,9 +1,9 @@
 
-.h1 {
+/*.h1 {
     color: brown;
     font-family: 'Courier New', Courier, monospace;
 }
-div {
+/*div {
     width: 400px; height: 150px;
     background-color: #ad6be3; 
     border: 4px dotted;
@@ -11,8 +11,8 @@ div {
     margin: 50px; 
     display: inline-table;
     text-align: center;
-}
-div p {
+}*/
+/*div p {
 display: table-cell;
 vertical-align:middle;
 font-family: impact; 
@@ -21,8 +21,9 @@ text-transform:
 uppercase;
 color:#330757;
 }
-/* formato, letra y color de la pagina horarios*/
-.h2 {
+
+ /*formato, letra y color de la pagina horarios*/
+/*.h2 {
   color: blue;
   font-size: 200%;
   font-weight:bold
@@ -131,10 +132,8 @@ color:#330757;
     color: purple;
     font-style: italic;
 }
-    /* TERMINA: formato, letra y color de la pagina horarios*/
-    
-
-.header {
+    /* TERMINA: formato, letra y color de la pagina horarios*/  
+/*.header {
 background-color: lightsalmon;
 width: 100%; height: 100%;
 }   
@@ -152,3 +151,100 @@ ul {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.contenedor {
+display: grid;
+grid-template-columns: 300px 1fr 300px;
+}
+
+.query {
+ display: flex;  
+ background-color: blueviolet; 
+ flex-wrap: wrap;
+ width: 980px;
+ margin: 0 auto;
+ margin-top: 40px;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .query {
+        background-color: aqua;
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: column-reverse;
+    }
+    .cajas {
+        width: 100%;
+    }
+} */
+.Boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+        gap: 10px;
+    }
+    .box1 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-color: blue;
+    }
+    .box2 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        background-color:palevioletred;
+    }
+    .box3 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        background-color:orangered;
+    }
+    .box4 {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        background-color: purple;
+    }
+    .box5 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        background-color: green;
+    }
+    .box6 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        background-color:red;
+    }
+    .box7 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        background-color: yellow;
+    }
+    .box8 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+        background-color: black;
+    }
+    .box9 {
+        grid-column-start: 3;
+        grid-row-start: 3;
+        background-color: peru;
+    }
+    @media only screen and (min-width: 320px) and (max-width: 576px) {
+        .Boxes {
+            width: 100%;
+            padding-left: 23px;
+            flex-direction: column-reverse;
+        }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .Boxes {
+            width: 100%;
+            padding-left: 23px;
+            flex-direction: column-reverse;
+        }
+    }
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .Boxes {
+            width: 100%;
+            padding-left: 23px;
+            flex-direction: column-reverse;
+        }
+    }
