@@ -22,66 +22,38 @@
       </header>
       <main>
     <form method="" action="">
-        Nombre: <input type="text" name="Nombre">
-        Apellido: <input type="text" name="Apellido">
+      <span class="badge text-bg-dark">Nombre</span>
+      <input type="text" name="Nombre">
+      <span class="badge text-bg-dark">Apellido</span>
+      <input type="text" name="Apellido">
     </form>
     <br>
         <form action="/my-handling-form-page" method="post">
-          <ul>
-            <li>
-              <label for="mail">Correo electrónico:</label>
+          <span class="badge text-bg-dark">Correo electrónico</span>
               <input type="email" id="mail" name="user_mail" />
-            </li>
-            <li>
-              <label for="msg">Mensaje:</label>
+              <br>
+             <br> <span class="badge text-bg-dark">Mensaje</span>
               <textarea id="msg" name="user_message"></textarea>
-            </li>
-          </ul>
         </form>
+        <br>
         <form class="row g-3">
           <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
+            <span class="badge text-bg-dark">Email</span>
             <input type="email" class="form-control" id="inputEmail4">
           </div>
           <div class="col-12">
-            <label for="inputAddress" class="form-label">Dirección</label>
+            <span class="badge text-bg-dark">Dirección</span>
             <input type="text" class="form-control" id="inputAddress">
           </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
           <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
+            <span class="badge text-bg-dark">Ciudad</span>
             <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
           </div>
         </form>
         <br>
-        <input type="submit" value="Enviar">
-        <br>
-        <button type="button" class="btn btn-info">Info</button>
+       <input type="submit" value="Enviar">
+       <br>
+      <br> <button type="button" class="btn btn-outline-dark">Info</button>
     </form>
     <br>
 </main>
