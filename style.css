@@ -1,18 +1,18 @@
 
-/*.h1 {
+.h1 {
     color: brown;
     font-family: 'Courier New', Courier, monospace;
 }
-/*div {
-    width: 400px; height: 150px;
-    background-color: #ad6be3; 
+div {
+    width: 200px; height: 200px;
+    background-color: #927da2; 
     border: 4px dotted;
     padding: 40px;
     margin: 50px; 
     display: inline-table;
     text-align: center;
-}*/
-/*div p {
+}
+div p {
 display: table-cell;
 vertical-align:middle;
 font-family: impact; 
@@ -23,7 +23,7 @@ color:#330757;
 }
 
  /*formato, letra y color de la pagina horarios*/
-/*.h2 {
+.h2 {
   color: blue;
   font-size: 200%;
   font-weight:bold
@@ -152,7 +152,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
 }
-/*
+
 .contenedor {
 display: grid;
 grid-template-columns: 300px 1fr 300px;
@@ -176,76 +176,68 @@ grid-template-columns: 300px 1fr 300px;
     .cajas {
         width: 100%;
     }
-} */
+} 
+
+
 .Boxes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 100px);
-        gap: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9 300px);
+    gap: 5px;
+
     }
     .box1 {
-        grid-column-start: 1;
-        grid-row-start: 1;
+      
         background-color: blue;
     }
     .box2 {
-        grid-column-start: 1;
-        grid-row-start: 2;
+       
         background-color:palevioletred;
     }
     .box3 {
-        grid-column-start: 1;
-        grid-row-start: 3;
+       
         background-color:orangered;
     }
     .box4 {
-        grid-column-start: 2;
-        grid-row-start: 1;
+        
         background-color: purple;
     }
     .box5 {
-        grid-column-start: 2;
-        grid-row-start: 2;
+       
         background-color: green;
     }
     .box6 {
-        grid-column-start: 2;
-        grid-row-start: 3;
+        
         background-color:red;
     }
     .box7 {
-        grid-column-start: 3;
-        grid-row-start: 1;
+        
         background-color: yellow;
     }
     .box8 {
-        grid-column-start: 3;
-        grid-row-start: 2;
+        
+        
         background-color: black;
     }
     .box9 {
-        grid-column-start: 3;
-        grid-row-start: 3;
+       
         background-color: peru;
     }
-    @media only screen and (min-width: 320px) and (max-width: 576px) {
-        .Boxes {
-            width: 100%;
-            padding-left: 23px;
-            flex-direction: column-reverse;
-        }
-    }
+    
+    
     @media only screen and (min-width: 481px) and (max-width: 768px) {
         .Boxes {
-            width: 100%;
-            padding-left: 23px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             flex-direction: column-reverse;
+            gap: 5px;
         }
     }
-    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    @media only screen and (min-width: 769px) {
         .Boxes {
-            width: 100%;
-            padding-left: 23px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             flex-direction: column-reverse;
+            gap: 5px;
         }
     }
