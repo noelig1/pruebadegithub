@@ -88,11 +88,33 @@ switch(menu) {
         break;
 }
 
+let cubiertos = ["Cuchillo", "Tenedor","Cuchara","Pinzas"];
+cubiertos.push("Cucharon");
+for (let i=0; i<cubiertos.length; i++) {
+    console.log(cubiertos[i]);
+}
+
+let numero = 15;
+while (numero < 11) {
+    console.log("numero es mas chico que 11");
+    numero++;
+}
+
+//TAREA 12//
+let nombre = prompt("Ingrese su nombre");
+function saludo() {
+    if (nombre) {
+        alert("Bienvenido!" + nombre);
+    }
+    else {
+        alert("Debe ingresar un nombre");
+    }
+}
+saludo()
 
 
 
-
-/*
+/*  EJERCICIO EN CLASE
 // Declarar variables
 let num = 1;  // Número inicial
 let sum = 0;    // Variable para almacenar la suma
@@ -102,18 +124,21 @@ while (num <= 10) {
   sum += num;  // Sumar el valor actual de 'numero' a 'suma'
   num++;        // Incrementar 'numero' en 1
 }
-/*
 // Mostrar el resultado
 console.log("La suma de los números del 1 al 10 es: " + sum);
+*/
 
+/* OTRO EJERCICIO
 let result:
 let n1 = 3:
 let n2 = 5:
-result = n1 + n2
 function sumas_y_muestra() {
-    alert("el resultado es" + result)
+    result = n1 + n2;
+    alert("el resultado es" + result);
+    sumas_y_muestra ();
 } */
-/*le falta terminarrrr*/
+
+
 /*
 // Solicita al usuario que introduzca un número entero
 let nu = prompt("Introduce un número entero");
